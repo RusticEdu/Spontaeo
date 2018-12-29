@@ -1,0 +1,23 @@
+User:
+  id
+  name
+  OpenToSpontaneous
+  Interests = []
+  bio
+
+Region:
+  id
+  name
+  Users
+
+Group:
+  id
+  Users
+  name
+  tags
+
+Game:
+  id
+  name
+  Spontaneous = bool
+  description
