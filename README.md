@@ -16,3 +16,12 @@ What the dapp would do is:
 - You can create groups with your friends if you just need an excuse to occasionally hang out or go full spontaneous and do something with a bunch of strangers.
 - Decentralization would protect user data (such as location), create no down time (because there would be no central server system), require no central server system (save us money),
 - probably some other fourth thing I'm not thinking of right now.
+
+## Development
+
+Install [nodejs](https://nodejs.org/en/)
+
+```sh
+$ npm install
+$ npm start
+```
