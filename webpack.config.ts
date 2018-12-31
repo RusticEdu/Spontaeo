@@ -11,6 +11,8 @@ function config(env: {
     ? [
         "https://unpkg.com/react@16/umd/react.production.min.js",
         "https://unpkg.com/react-dom@16/umd/react-dom.production.min.js",
+        "https://unpkg.com/react-router/umd/react-router.min.js",
+        "https://unpkg.com/react-router-dom/umd/react-router-dom.min.js",
         "https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css",
         "https://code.jquery.com/jquery-3.3.1.slim.min.js",
         "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js",
@@ -19,6 +21,8 @@ function config(env: {
     : [
         "node_modules/react/umd/react.development.js",
         "node_modules/react-dom/umd/react-dom.development.js",
+        "node_modules/react-router/umd/react-router.js",
+        "node_modules/react-router-dom/umd/react-router-dom.js",
         "node_modules/bootstrap/dist/css/bootstrap.css",
         "node_modules/jquery/dist/jquery.js",
         "node_modules/bootstrap/dist/js/bootstrap.bundle.js"
@@ -52,7 +56,9 @@ function config(env: {
     },
     externals: {
       react: "React",
-      "react-dom": "ReactDOM"
+      "react-dom": "ReactDOM",
+      "react-router": "ReactRouter",
+      "react-router-dom": "ReactRouterDOM"
     },
     plugins: [htmlWebpackPlugin, htmlIncludeAssetsPlugin]
   };
