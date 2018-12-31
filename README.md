@@ -1,27 +1,19 @@
 # Spontaeo
 
-So the app is going to be based around Spontaneous Interactions and Games that members can play with others nearby who also have the app, and are presently open to spontaneous interactions.
-In addition to this there will be a traditional meeting platform in which users meetup based around common interests. Right now there are only 6 games, so if you have any ideas for a spontaneous venture, please share!
-Here are a few examples:
+An application based around Spontaneous Interactions and Games which members engage in with others nearby.  In addition to the former, there will be a traditional meeting platform in which users meetup based around common interests.  If you have any ideas for a spontaneous ventures, please share!
 
-- Conversation
-- Board/Mobile Game
-- PointOut
+Example Games:
+
+- Spont. Conversation
+- Shared Board/Mobile Game
+- PointOut: A game where users have to guess which person the member is in a given area.
+- Impromtu Tag
 - DanceOff(Coordinated, Improv)
 
-Spotnaeo is basically a spontaneous meeting and interaction application. Basically, for people who want something to do but don't really like the monotony or dedication needed for some activities (like organized sports or something), or even people who want to meet people to do random activities with.
-What the dapp would do is:
+-Users have the option of appearing in the location tags and Spontenous feeds by altering a boolean value in their user settings
+-Create groups and schedule events
+-See who is in your area, and who is down to hang
+-Strong impetus to protect user data through platform decentralization
 
-- when a user indicates it is okay for them, group a bunch of users in the area together for some sort of game or activity for them to participate in.
-- You can create groups with your friends if you just need an excuse to occasionally hang out or go full spontaneous and do something with a bunch of strangers.
-- Decentralization would protect user data (such as location), create no down time (because there would be no central server system), require no central server system (save us money),
-- probably some other fourth thing I'm not thinking of right now.
+### Development
 
-## Development
-
-Install [nodejs](https://nodejs.org/en/)
-
-```sh
-$ npm install
-$ npm start
-```
